@@ -1,0 +1,58 @@
+/* This will be overwritten by JavaScript */
+aside {
+  background-position: right 0;
+  background-size: 105vh;
+}
+
+main {
+  background-image: linear-gradient(to right, white 60%, rgba(128, 128, 128, 0.5));
+  top: 0;
+  z-index: 2;
+  min-height: 100%;
+  width: calc(100% - 51vh - 25px);
+  padding-right: 20px;
+}
+
+section {
+  margin: 2px 2px 2px 200px;
+}
+
+section:first-of-type {
+  margin-top: 0;
+}
+
+section a {
+  padding: 110px 80px;
+  border-left: 2px solid white;
+}
+
+section a span.title {
+  text-decoration: underline;
+}
+
+section a span.description {
+  color: #777777;
+  visibility: hidden;
+  text-decoration: none;
+}
+
+section a:hover span {
+  visibility: visible;
+}
+
+section a:hover, section a:focus {
+  border-left-color: #282A3C;
+}
+
+@media (max-width: 1000px) {
+  section {
+    margin-left: calc(100% / 5 - 20px);
+  }
+}
+
+@media (min-width: 2000px) {
+  section a {
+    font-size: calc(100% + 1vh);
+    padding: calc(100px + 10vh);
+  }
+}

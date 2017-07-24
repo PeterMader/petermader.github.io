@@ -1,0 +1,32 @@
+/* This will be overwritten by JavaScript */
+aside {
+  background-position: center 0;
+  background-size: contain;
+}
+
+main {
+  top: 40vw;
+  width: 100%;
+}
+
+section {
+  margin: 4px;
+}
+
+section a {
+  padding: 50px 15px 50px 20px;
+  border-bottom: 2px solid white;
+}
+
+section a span.title {
+  text-decoration: underline;
+}
+
+section a span.description {
+  color: #777777;
+  text-decoration: none;
+}
+
+section a:hover, section a:focus {
+  border-bottom-color: #282A3C;
+}
