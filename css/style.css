@@ -22,6 +22,7 @@ aside {
 
 main {
   position: absolute;
+  z-index: 2;
 }
 
 section:first-of-type {
@@ -32,6 +33,15 @@ section a {
   background-color: white;
   display: block;
   color: #282A3C;
+  text-decoration: none;
+}
+
+section a span.title {
+  text-decoration: underline;
+}
+
+section a span.description {
+  color: #777777;
   text-decoration: none;
 }
 

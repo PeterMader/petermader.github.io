@@ -7,7 +7,6 @@ aside {
 main {
   background-image: linear-gradient(to right, white 60%, rgba(128, 128, 128, 0.5));
   top: 0;
-  z-index: 2;
   min-height: 100%;
   width: calc(100% - 51vh - 25px);
   padding-right: 20px;
@@ -26,17 +25,11 @@ section a {
   border-left: 2px solid white;
 }
 
-section a span.title {
-  text-decoration: underline;
-}
-
 section a span.description {
-  color: #777777;
   visibility: hidden;
-  text-decoration: none;
 }
 
-section a:hover span {
+section a:hover span.description {
   visibility: visible;
 }
 
@@ -53,6 +46,6 @@ section a:hover, section a:focus {
 @media (min-width: 2000px) {
   section a {
     font-size: calc(100% + 1vh);
-    padding: calc(100px + 10vh);
+    padding: calc(100px + 5vh);
   }
 }
