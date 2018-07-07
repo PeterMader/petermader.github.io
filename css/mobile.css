@@ -18,15 +18,6 @@ section a {
   border-bottom: 2px solid white;
 }
 
-section a span.title {
-  text-decoration: underline;
-}
-
-section a span.description {
-  color: #777777;
-  text-decoration: none;
-}
-
 section a:hover, section a:focus {
   border-bottom-color: #282A3C;
 }
